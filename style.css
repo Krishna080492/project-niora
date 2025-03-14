@@ -62,7 +62,7 @@ nav .top-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 35px;
+  padding-top: 35px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -86,7 +86,7 @@ nav .contact-img p {
   font-size: 14px;
   line-height: 140%;
   letter-spacing: 1.4px;
-  margin-left: 20px;
+  margin-left: 45px;
 }
 
 nav .logo-img img {
@@ -102,7 +102,7 @@ nav .icon-img {
 nav .icon-img img {
   width: 24px;
   height: 24px;
-  margin-right: 20px;
+  margin-right: 22px;
 }
 
 nav .main-header {
@@ -110,6 +110,7 @@ nav .main-header {
   max-width: 1440px;
   width: 100%;
   height: 69px;
+  padding-top: 25px;
 }
 
 nav .main-header ul {
@@ -125,10 +126,12 @@ nav .main-header ul li {
 nav .main-header ul li a {
   color: var(--color-white);
   text-decoration: none;
-  margin-right: 35px;
+  margin-right: 60px;
   text-transform: var(--uppercase);
   font-size: 16px;
   font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 2.4px;
 }
 
 nav .hero-section {
@@ -327,6 +330,7 @@ nav .hero-section .btn {
 .voyage-content {
   width: 494px;
   height: auto;
+  margin-left: -60px;
 }
 
 .voyage-content h3 {
@@ -778,6 +782,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 
 .left-footer {
@@ -828,11 +833,21 @@ footer {
   height: 33px;
 }
 
+.left-footer .social-icon {
+  margin-top: 80px;
+}
+
+.left-footer .social-icon img {
+  margin-right: 16px;
+  width: 28px;
+  height: 28px;
+}
+
 .vertical-line {
   width: 1px;
-  height: 764px;
+  height: 700px;
   margin-left: 650px;
-  margin-top: -388px;
+  margin-top: -452px;
   border: 1px solid rgba(255, 255, 255, 0.24);
   display: flex;
   flex-direction: column;
@@ -840,29 +855,173 @@ footer {
   position: relative;
 }
 
-.arrow-up {
+.arrow-up i {
   position: absolute;
-  top: 0px;
-  width: 0;
-  height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-bottom: 10px solid rgba(255, 255, 255, 0.24);
+  top: 64%;
+  left: -22px;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 45px;
 }
 
-/* Circle in Middle */
 .circle {
   position: absolute;
-  top: 50%;
+  top: 68%;
   left: 50%;
   width: 120px;
   height: 120px;
   transform: translate(-50%, -50%);
-  background-color: transparent;
+  background-color: #927160;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.24);
-  z-index: 2;
+  z-index: 0;
 }
 
+.right-footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 720px;
+  height: auto;
+  position: absolute;
+  top: 76px;
+  right: -100px;
+}
 
+.right-footer-colomn {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.right-footer-colomn h4 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 1.4px;
+  text-transform: var(--uppercase);
+  height: 33px;
+}
+
+.right-footer-colomn a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.3px;
+  height: 33px;
+}
+
+.right-footer .mailbox {
+  margin-top: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 2px;
+  right: 230px;
+}
+
+.mailbox h4 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 1.4px;
+  text-transform: var(--uppercase);
+  margin-bottom: 10px;
+}
+
+.mailbox input {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--color-white);
+  font-size: 12px;
+  width: 314px;
+  height: 45px;
+}
+
+.mailbox input::placeholder {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 1.4px;
+  text-transform: var(--uppercase);
+}
+
+.mailbox i {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.24);
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin-top: -45px;
+  margin-left: 269px;
+  color: var(--color-white);
+}
+
+.bottom-footer {
+  height: 77px;
+  width: 100%;
+}
+
+.bottom-footer .bottom-footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-footer p {
+  margin-left: 80px;
+  font-family: var(--font-family);
+  color: #927160;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+  height: 20px;
+}
+
+.bottom-footer .digitalpay-icon{
+  width: 353px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-footer .digitalpay-icon .rupay{
+  width: 52px;
+  height: 52px;
+  margin-right: 38px;
+}
+
+.bottom-footer .digitalpay-icon .upi{
+  width: 52px;
+  height: 22px;
+  margin-right: 38px;
+}
+
+.bottom-footer .digitalpay-icon .visa{
+  width: 69px;
+  height: 20px;
+  margin-right: 38px;
+}
+
+.bottom-footer .digitalpay-icon .mscard{
+  width: 49px;
+  height: 30px;
+  margin-right: 38px;
+}
 /* footer end */
