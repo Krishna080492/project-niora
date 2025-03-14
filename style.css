@@ -383,10 +383,10 @@ nav .hero-section .btn {
   max-width: 1440px;
   min-height: 963px;
   background: url(/images/Customer\ favourite\ bg.jpg) no-repeat center/cover;
+  object-fit: fill;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 0;
 }
 
 .customer-content h3 {
@@ -402,7 +402,6 @@ nav .hero-section .btn {
   text-align: center;
   padding-top: 136px;
   margin-bottom: 104px;
-  z-index: 1;
 }
 
 .customer-cards {
