@@ -1,0 +1,396 @@
+@media screen and (max-width: 576px) {
+  .top-head p {
+    width: 40%;
+    height: 34px;
+    padding: 7px 75px;
+    font-size: 16px;
+  }
+  nav {
+    width: 40%;
+    height: 100vh;
+  }
+  .icon i {
+    display: block;
+    margin-left: -100px;
+  }
+
+  .ri-search-line {
+    display: block;
+    margin-left: -50px;
+  }
+
+  nav .main-header {
+    display: none;
+  }
+  nav .contact-img img {
+    display: none;
+  }
+  nav .contact-img p {
+    display: none;
+  }
+
+  nav .logo-img img {
+    width: 40%;
+    height: 40%;
+  }
+
+  nav .icon-img {
+    width: 19px;
+    height: 24px;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .user {
+    display: none;
+  }
+  .icon-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .icon-img img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0;
+  }
+
+  nav .icon-img .heart {
+    margin-left: -50px;
+    margin-right: 20px;
+  }
+
+  nav .hero-section h1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  nav .hero-section p {
+    font-size: 18px;
+    margin: 16px 0px;
+  }
+
+  /* top */
+
+  .top-category h3 {
+    width: 40%;
+    height: 56px;
+  }
+
+  .top-category-cards {
+    flex-wrap: wrap;
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .top-category-card {
+    width: 250px;
+    height: 250px;
+  }
+
+  .top-category-card .card-text {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+  }
+
+  /* shape start */
+
+  .shape-category h3 {
+    width: 40%;
+  }
+
+  .shape-category-cards {
+    flex-wrap: wrap;
+    width: 40%;
+  }
+
+  .shape-category-card img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  .shape-category-card.heart {
+    width: 346px;
+    height: 229px;
+  }
+
+  /* voyage start */
+  .voyage-section {
+    width: 40%;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .voyage-img {
+    width: 50%;
+    height: 500px;
+  }
+  .voyage-img img {
+    width: 500px;
+    height: 500px;
+    margin-left: -115px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .voyage-content h3 {
+    text-align: center;
+    position: absolute;
+    top: -60px;
+  }
+
+  .voyage-content p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+
+  .btn-voyage {
+    width: 158px;
+    height: 54px;
+    margin-left: 40%;
+  }
+
+  /* customer-favourite start */
+  .customer-content h3 {
+    width: 45%;
+    height: 56px;
+  }
+  /* style start */
+
+  .style-category h3 {
+    width: 40%;
+  }
+
+  .style-category-cards {
+    flex-wrap: wrap;
+    width: 40%;
+  }
+
+  .style-category-card img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  .style-category-card.heart {
+    width: 346px;
+    height: 229px;
+  }
+
+  /* craftmenship start */
+  .craftmanship-section {
+    width: 40%;
+    position: relative;
+    height: 900px;
+  }
+
+  .craftmanship-img {
+    position: absolute;
+    top: 70px;
+    width: 50%;
+    height: 500px;
+  }
+  .craftmanship-img img {
+    width: 500px;
+    height: 500px;
+    margin-left: -115px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .craftmanship-content h3 {
+    text-align: center;
+    position: absolute;
+    top: -60px;
+  }
+
+  .craftmanship-content p {
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 600px;
+    margin-left: -20px;
+  }
+
+  .btn-craftmanship {
+    width: 158px;
+    height: 54px;
+    margin-left: 20%;
+    position: absolute;
+    bottom: -80px;
+  }
+
+  /* service-category start */
+
+  .service-category-cards {
+    flex-wrap: wrap;
+    width: 30%;
+  }
+
+  .service-category-card img {
+    width: 30%;
+    height: 40%;
+    object-fit: cover;
+  }
+
+  /* blog-section start */
+
+  .blog-content h3 {
+    width: 40%;
+    height: 56px;
+  }
+
+  /* footer start */
+  footer {
+    width: 40%;
+    height: 900px;
+  }
+
+  .left-footer {
+    gap: 20px;
+    width: 80px;
+    height: 100%;
+  }
+  .footer-logo {
+    position: relative;
+  }
+  .footer-logo img {
+    width: 200px;
+    height: 50px;
+  }
+  .footer-logo p {
+    font-size: 12px;
+  }
+
+  .left-footer-colomn {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+  }
+
+  .right-footer-colomn {
+    position: absolute;
+    right: 130px;
+    top: 120px;
+  }
+
+  .right-footer-colomn.services {
+    position: absolute;
+    right: 120px;
+    top: 400px;
+  }
+
+  .right-footer-colomn.contact {
+    position: absolute;
+    left: 110px;
+    top: 400px;
+  }
+  .left-footer .social-icon h4 {
+    position: absolute;
+    top: -100px;
+    margin-top: 80px;
+  }
+
+  .left-footer .social-icon {
+    position: absolute;
+    top: 360px;
+  }
+  .left-footer .social-icon img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .arrow-up i {
+    display: none;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .mailbox h4 {
+    position: absolute;
+    top: 300px;
+    right: 280px;
+  }
+
+  .mailbox input {
+    padding: 5px;
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    top: 340px;
+    right: 200px;
+  }
+
+  .mailbox input::placeholder {
+    font-size: 12px;
+  }
+
+  .mailbox i {
+    display: none;
+  }
+
+  .bottom-footer {
+    height: 100vh;
+    width: 40%;
+    background-color: #927160;
+    display: block;
+  }
+
+  .bottom-footer .bottom-footer-content {
+    display: inline-block;
+  }
+
+  .bottom-footer p {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 12px;
+    margin-left: 70px;
+    margin-top: 650px;
+  }
+
+  .bottom-footer .digitalpay-icon {
+    width: 153px;
+    height: 52px;
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+  .bottom-footer .digitalpay-icon .rupay {
+    width: 32px;
+    height: 32px;
+    margin-right: 18px;
+  }
+  
+  .bottom-footer .digitalpay-icon .upi {
+    width: 32px;
+    height: 22px;
+    margin-right: 18px;
+    background-color: #fff;
+    padding: 2px;
+  }
+  
+  .bottom-footer .digitalpay-icon .visa {
+    width: 49px;
+    height: 20px;
+    margin-right: 18px;
+  }
+  
+  .bottom-footer .digitalpay-icon .mscard {
+    width: 39px;
+    height: 30px;
+    margin-right: 38px;
+  }
+}
