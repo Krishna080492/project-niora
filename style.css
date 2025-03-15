@@ -393,7 +393,9 @@ nav .hero-section .btn {
   margin-top: 140px;
   width: 1440px;
   height: 963px;
-  background: url(/images/Customer\ favourite\ bg.jpg) no-repeat center;
+  /* background: rgba(0, 0, 0, 0.2) url(/images/Customer\ favourite\ bg.jpg) no-repeat center/cover; */
+  background: rgba(0, 0, 0, 0.2) url(images/Hero\ Image.png) no-repeat
+    center/cover;
   object-fit: fill;
   display: flex;
   justify-content: center;
